@@ -1,11 +1,28 @@
 # Sidepyter
 
-The missing sidebar for Ipython Notebook, based on toc2 at https://github.com/ipython-contrib/IPython-notebook-extensions
+The missing sidebar table of contents for Jupyter Notebook (IPython Notebook),
 
-A preview:
+based on toc2 at https://github.com/ipython-contrib/IPython-notebook-extensions
 
-![toc](https://cloud.githubusercontent.com/assets/2425141/13720167/a7f8a058-e83c-11e5-8e84-4ebda0c660dc.gif)
+## How it looks
 
-Still under development.
+![toc](./doc/preview.gif)
 
-Discussion: https://github.com/ipython-contrib/IPython-notebook-extensions/issues/532
+## Install
+
+1. Download the `lib` dir
+
+2. At the top of your notebook,
+
+        from lib.lib_loader import sidebar
+        sidebar()
+
+3. Sidebar is loaded!
+
+You can check the demo at `sidepyter_demo.ipynb`
+
+## Features
+
+1. Sidebar table of content at Jupyter Notebook Edit mode.
+
+2. Outputable to HTML format
