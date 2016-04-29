@@ -1,5 +1,7 @@
 # Sidepyter
 
+[![Join the chat at https://gitter.im/cqcn1991/sidepyter](https://badges.gitter.im/cqcn1991/sidepyter.svg)](https://gitter.im/cqcn1991/sidepyter?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 The missing sidebar table of contents for Jupyter Notebook (IPython Notebook),
 
 based on toc2 at https://github.com/ipython-contrib/IPython-notebook-extensions
